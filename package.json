@@ -3,6 +3,7 @@
 	"displayName": "Properties validator",
 	"description": "Used to validate the properties file",
 	"publisher": "vivek-kasture",
+	"icon": "assets/icons/icon.png",
 	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.49.0"
