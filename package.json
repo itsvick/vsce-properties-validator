@@ -1,15 +1,26 @@
 {
 	"name": "properties-validator",
 	"displayName": "Properties validator",
-	"description": "Used to validate the phrase app language file",
+	"description": "Used to validate the properties file",
 	"publisher": "vivek-kasture",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.49.0"
 	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/itsvick/vsce-properties-validator.git"
+  },
 	"categories": [
-		"Other"
+		"Formatters"
 	],
+	"keywords": [
+		"properties",
+		"Validator",
+		"Formatter",
+		"Other"
+  ],
 	"activationEvents": [
 		"onCommand:properties-validator.validate"
 	],

@@ -11,10 +11,6 @@ export const validateProperties = () => {
 
   const isPropertiesFile = fsPath.split('.').pop() === 'properties';
 
-  // let orange = vscode.window.createOutputChannel("Orange");
-  // orange.appendLine(document.lineCount.toFixed());
-  // orange.appendLine(document.uri.fsPath);
-
   if (isPropertiesFile) {
     let propertyJson;
     fs.readFile(fsPath, { encoding: "utf-8" }, (err: any, data: any) => {
@@ -22,7 +18,6 @@ export const validateProperties = () => {
         console.log(propertiesToJSON(data));
         propertyJson = propertiesToJSON(data);
         propertyJson = formatFile(propertyJson);
-        // orange.appendLine(JSON.stringify(propertyJson));
         writeFile(propertyJson);
       } else {
         vscode.window.showErrorMessage('Unexpected error occurred while reading file');
@@ -44,7 +39,7 @@ export const validateProperties = () => {
           index++;
         });
 
-        vscode.workspace.applyEdit(workSpaceEdit).then(() => { vscode.window.showInformationMessage('Edited2!!!!!!!!!'); });
+        vscode.workspace.applyEdit(workSpaceEdit).then(() => { vscode.window.showInformationMessage('Validated Successfully!'); });
       });
     }
     function formatFile(propertyObj: any) {
