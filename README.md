@@ -1,8 +1,6 @@
 # Properties Validator
 [![Version](https://badgen.net/vs-marketplace/v/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator)
 [![Installs](https://badgen.net/vs-marketplace/i/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator)
-[![Downloads](https://badgen.net/vs-marketplace/d/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator)
-[![Ratings](https://badgen.net/vs-marketplace/rating/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator&ssr=false#review-details)
 
 Properties Validator is an extension for Visual Studio Code to format .properties file.
 
