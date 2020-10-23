@@ -2,9 +2,9 @@
 [![Version](https://badgen.net/vs-marketplace/v/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator)
 [![Installs](https://badgen.net/vs-marketplace/i/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator)
 [![Downloads](https://badgen.net/vs-marketplace/d/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator)
-[![Ratings](https://badgen.net/vs-marketplace/rating/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter&ssr=false#review-details)
+[![Ratings](https://badgen.net/vs-marketplace/rating/vivek-kasture.properties-validator)](https://marketplace.visualstudio.com/items?itemName=vivek-kasture.properties-validator&ssr=false#review-details)
 
-SCSS Formatter is an extension for Visual Studio Code to format .properties file.
+Properties Validator is an extension for Visual Studio Code to format .properties file.
 
 Properties Validator uses [Prettier] under the hood to format files. Though Prettier supports formatting various file types. This extension focuses only on `.properties`. 
 
@@ -26,4 +26,4 @@ code --install-extension vivek-kasture.properties-validator
 
 ## Command
 
-To run the sorter use `Sort Imports` command from the `Command Palette` (Ctrl+Shift+P).
+To run the sorter use `Validate` command from the `Command Palette` (Ctrl+Shift+P).
