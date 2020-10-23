@@ -20,7 +20,7 @@ code --install-extension vivek-kasture.properties-validator
 
 ## Examples
 
-![alt text](./assets/demo.gif "Validate Properties")
+![Sample](https://github.com/itsvick/vsce-properties-validator/blob/main/assets/demo.gif)
 
 ## Command
 
